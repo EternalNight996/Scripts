@@ -12,7 +12,6 @@ curl http://nginx.org/download/${nginx_version} >${nginx_version}
 docker build -t ${image_name} .
 docker run  --name ${name} -d -p 80:80 ${container_name}
 
-color 2
 echo "------Ok, builded container successful!"
 docker ps -a
 echo "please enter command into container ->"
@@ -23,4 +22,3 @@ echo "docker attach <CONTAINER ID>"
 echo "---------------------------------------"
 echo "cleaning -> %nginx_version%"
 rm -rf %nginx_version%
-pause
