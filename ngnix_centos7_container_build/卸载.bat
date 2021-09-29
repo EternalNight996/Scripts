@@ -4,12 +4,12 @@
 set container=nginx-centos7:1.6.1-v1
 set image=nginx-centos7
 set name=nginx_centos
-echo ************æ­£åœ¨åœæ­¢å®¹å™¨ -> %name%
+echo ************ÕýÔÚÍ£Ö¹ÈÝÆ÷  %name%
 docker stop %name%
 color 2
-echo ************æ­£åœ¨å¸è½½å®¹å™¨ -> %name%
+echo ************ÕýÔÚÐ¶ÔØÈÝÆ÷  %name%
 docker rm %name%
-echo ************æ­£åœ¨å¸è½½é•œåƒ -> %image%
+echo ************ÕýÔÚÐ¶ÔØ¾µÏñ  %image%
 docker rmi %image%
-echo *************å·²ç»æ¸…ç†å®Œæ¯•è¯·æŒ‰ä»»æ„é”®å…³é—­çª—å£ -!-
+echo *************ÒÑ¾­ÇåÀíÍê±ÏÇë°´ÈÎÒâ¼ü¹Ø±Õ´°¿Ú -!-
 pause > nul
