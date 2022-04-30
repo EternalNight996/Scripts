@@ -9,7 +9,7 @@ if "%NOW%" LSS "10" (
     
     echo *****hello welcome to my chat room*****
     echo *****here is SB AI club.. just chat your robot*****
-    echo *****(robot„ÄÅ clear„ÄÅ robot chat)
+    echo *****(robot°¢ clear°¢ robot chat)
     set /p input="please input robot or other:  "
     if "%input%" == "robot" (
         goto :robot
